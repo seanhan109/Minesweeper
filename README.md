@@ -1,7 +1,7 @@
 # minesweeper
 This project was part of a final assignment for my COMP_SCI 211 class, in which I implemented a basic version of minesweeper.
 
-## project specifications
+## Project Specifications
 1. Left clicking a mine will reveal that square, which will either be a mine, a number from 1-8 indicating the number of mines adjacent to it (including corners), or a blank square, indicating that there are no mines adjacent to the square.
 2. Right clicking a mine will place a flag on the square at that location.
 3. A number will be displayed on the top left side of the screen, which is calculated using the formula (number of mines on the board - number of flags placed by the player). When this number reaches zero, the player will no longer be able to place flags until they remove a flag they have already placed.
